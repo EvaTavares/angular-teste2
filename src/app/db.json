@@ -1,0 +1,18 @@
+{
+  "animals": [
+    {"id": 1,"name": "Turca", "type": "Dog", "age": 3},
+    {"id": 2,"name": "Tom", "type": "Cat", "age": 4},
+    {"id": 3,"name": "Frida", "type": "Dog", "age":10},
+    {"id": 4,"name": "Bob", "type": "Horse", "age": 1},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5},
+    {"id": 5,"name": "Rio", "type": "Bird", "age": 5}
+  ]
+}
