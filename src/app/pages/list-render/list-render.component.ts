@@ -27,9 +27,11 @@ export class ListRenderComponent implements OnInit {
   }
 
   removeAnimal(animal: Animal){
-    console.log("removendo animal")
-    this.animals = this.listService.remove(this.animals, animal)
+    this.animals = this.animals.filter((a)=> animal.name !== a.name)
+    this.listService.remove(animal.id).subscribe();
+    // todo evento que interaja com o banco de dados, precisa usar Subscribe, nesse caso
+    //  vai ser só a inicialização dele
   }
-
-
 }
+
+// O component acessa o SERVICE para poder solicitar o banco de dados
